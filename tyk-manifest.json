@@ -1,5 +1,5 @@
 {
-  "api_one.oas": {
+  "httpbin.oas": {
     "api_id": "custom_api_one_id",
     "params": {
       "listenPath": "/apione",
