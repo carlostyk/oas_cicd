@@ -7,5 +7,5 @@ jobs:
   publish-oas-apis:
     uses: TykTechnologies/github-actions/.github/workflows/publish-oas-apis.yaml@publish-oas-apis 
     secrets:
-      API_TOKEN: ${{ secrets.AUTH_TOKEN }}
+      API_TOKEN: ${{ secrets.API_TOKEN }}
       BASE_URL: ${{ secrets.BASE_URL }}
