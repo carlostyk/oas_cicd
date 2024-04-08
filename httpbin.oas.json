@@ -39,7 +39,7 @@
   "paths": {
     "/": {
       "get": {
-        "summary": "The current time, in a variety of formats",
+        "summary": "The current time, in a variety of format",
         "tags": [
           "time"
         ],
