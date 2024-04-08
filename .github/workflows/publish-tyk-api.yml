@@ -1,0 +1,11 @@
+name: Publish Tyk OAS APIs to Tyk Dashboard
+on:
+  push:
+    branches:
+      - main # or any other branch you want to deploy from
+jobs:
+  publish-oas-apis:
+    uses: TykTechnologies/github-actions/.github/workflows/publish-oas-apis.yaml@publish-oas-apis 
+    secrets:
+      AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+      BASE_URL: ${{ secrets.BASE_URL }}
