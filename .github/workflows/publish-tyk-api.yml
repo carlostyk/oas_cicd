@@ -8,4 +8,4 @@ jobs:
     uses: TykTechnologies/github-actions/.github/workflows/publish-oas-apis.yaml@publish-oas-apis 
     secrets:
       API_TOKEN: ${{ secrets.AUTH_TOKEN }}
-      BASE_URL: https://administrative-edward-adm.aws-use1.cloud-ara.tyk.io
+      BASE_URL: ${{ secrets.BASE_URL }}
